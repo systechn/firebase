@@ -25,12 +25,12 @@ import (
 	"os"
 
 	"cloud.google.com/go/firestore"
-	"firebase.google.com/go/auth"
-	"firebase.google.com/go/db"
-	"firebase.google.com/go/iid"
-	"firebase.google.com/go/internal"
-	"firebase.google.com/go/messaging"
-	"firebase.google.com/go/storage"
+	"github.com/systechn/firebase/auth"
+	"github.com/systechn/firebase/db"
+	"github.com/systechn/firebase/iid"
+	"github.com/systechn/firebase/internal"
+	"github.com/systechn/firebase/messaging"
+	"github.com/systechn/firebase/storage"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport"
 )

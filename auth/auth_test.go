@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport"

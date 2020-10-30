@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 )
 
 const iidEndpoint = "https://console.firebase.google.com/v1"

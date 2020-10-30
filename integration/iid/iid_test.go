@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"firebase.google.com/go/iid"
-	"firebase.google.com/go/integration/internal"
+	"github.com/systechn/firebase/iid"
+	"github.com/systechn/firebase/integration/internal"
 )
 
 var client *iid.Client

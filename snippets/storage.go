@@ -18,7 +18,7 @@ import (
 	"context"
 	"log"
 
-	firebase "firebase.google.com/go"
+	firebase "github.com/systechn/firebase"
 	"google.golang.org/api/option"
 )
 

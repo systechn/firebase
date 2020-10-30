@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	gcs "cloud.google.com/go/storage"
-	"firebase.google.com/go"
-	"firebase.google.com/go/integration/internal"
-	"firebase.google.com/go/storage"
+	go "github.com/systechn/firebase"
+	"github.com/systechn/firebase/integration/internal"
+	"github.com/systechn/firebase/storage"
 )
 
 var ctx context.Context

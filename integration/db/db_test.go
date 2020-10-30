@@ -28,9 +28,9 @@ import (
 	"reflect"
 	"testing"
 
-	"firebase.google.com/go"
-	"firebase.google.com/go/db"
-	"firebase.google.com/go/integration/internal"
+	go "github.com/systechn/firebase"
+	"github.com/systechn/firebase/db"
+	"github.com/systechn/firebase/integration/internal"
 )
 
 var client *db.Client

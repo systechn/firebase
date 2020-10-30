@@ -24,8 +24,8 @@ import (
 	"regexp"
 	"testing"
 
-	"firebase.google.com/go/integration/internal"
-	"firebase.google.com/go/messaging"
+	"github.com/systechn/firebase/integration/internal"
+	"github.com/systechn/firebase/messaging"
 )
 
 // The registration token has the proper format, but is not valid (i.e. expired). The intention of

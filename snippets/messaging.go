@@ -20,8 +20,8 @@ import (
 	"log"
 	"time"
 
-	firebase "firebase.google.com/go"
-	"firebase.google.com/go/messaging"
+	firebase "github.com/systechn/firebase"
+	"github.com/systechn/firebase/messaging"
 )
 
 func sendToToken(app *firebase.App) {

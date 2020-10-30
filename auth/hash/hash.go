@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 )
 
 // Bcrypt represents the BCRYPT hash algorithm.

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 )
 
 func TestEncodeToken(t *testing.T) {

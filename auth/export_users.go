@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 	"google.golang.org/api/iterator"
 )
 

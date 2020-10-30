@@ -30,7 +30,7 @@ import (
 	"strings"
 	"sync"
 
-	"firebase.google.com/go/internal"
+	"github.com/systechn/firebase/internal"
 	"google.golang.org/api/transport"
 )
 
