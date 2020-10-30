@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"fgithub.com/systechn/firebase/internal"
+	"github.com/systechn/firebase/internal"
 	"google.golang.org/api/iterator"
 )
 
