@@ -75,11 +75,11 @@ func NewHTTPClient(ctx context.Context, opts ...option.ClientOption) (*HTTPClien
 // retried up to 4 times with exponential backoff. Retry delay is never longer than 2 minutes.
 func WithDefaultRetryConfig(hc *http.Client) *HTTPClient {
 	// twoMinutes := time.Duration(2) * time.Minute
-	delay := time.Duration(20) * time.Second
+	delay := time.Duration(5) * time.Second
 	return &HTTPClient{
 		Client: hc,
 		RetryConfig: &RetryConfig{
-			MaxRetries: 1,
+			MaxRetries: 0,
 			CheckForRetry: retryNetworkAndHTTPErrors(
 				http.StatusInternalServerError,
 				http.StatusServiceUnavailable,
